@@ -1,3 +1,5 @@
+// Kutay KELEŞ 3/1/2021 ///// https://leetcode.com/problems/two-sum/
+
 var twoSum = function(nums,target) {
 	for(let x = 0;x<nums.length;x++){
 		for(let y = x+1;y<nums.length;y++){
@@ -7,6 +9,3 @@ var twoSum = function(nums,target) {
 		}
 	}
 }
-
-
-twoSum([3,2,4],6)
