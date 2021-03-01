@@ -2,6 +2,9 @@
  * @param {string} s
  * @return {number}
  */
+
+// Kutay KELEŞ 3/1/2021 //// https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
 var lengthOfLongestSubstring = function(s) {
 	let hook = [0]
 	for(let x=0;x<s.length;x++){
@@ -17,10 +20,7 @@ var lengthOfLongestSubstring = function(s) {
 		}
 		hook.push(tempArr[x].length)
 	}
-	console.log(Math.max(...hook))
+	return(Math.max(...hook));
 	
     
 };
-
-
-lengthOfLongestSubstring("")
